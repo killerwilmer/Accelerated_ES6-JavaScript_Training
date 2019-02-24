@@ -1,3 +1,4 @@
 # SystemJS/JSPM Starter
 
-This simple Plunker is here to be able to quickly get up and running with a sample SystemJS/JSPM in the browser.
+1. Modules are always in Strict Mode (no need to define "use strict")
+2. Modules don't have a shared, global Scope. Instead each Module has its own Scope
