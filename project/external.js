@@ -4,4 +4,7 @@ function test() {
   console.log('tested !');
 }
 
+let text = 'Some text';
+
 export {keyValue, test};
+export default text;

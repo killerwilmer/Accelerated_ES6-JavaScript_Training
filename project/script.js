@@ -1,8 +1,9 @@
 'use strict';
 
 // Write ES6 code here...
-import {keyValue, test} from './external.js';
+import text, {keyValue as key, test} from './external.js';
 
-console.log(keyValue);
+console.log(key);
 test();
-console.log(keyValue);
+console.log(key);
+console.log(text);
